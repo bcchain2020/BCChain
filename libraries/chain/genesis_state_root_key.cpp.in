@@ -1,0 +1,12 @@
+/**
+ *  @file
+ *  @copyright defined in bc/LICENSE.txt
+ */
+
+#include <bcio/chain/genesis_state.hpp>
+
+namespace bcio { namespace chain {
+
+const string genesis_state::bcio_root_key = "${BCIO_ROOT_KEY}";
+
+} } // namespace bcio::chain

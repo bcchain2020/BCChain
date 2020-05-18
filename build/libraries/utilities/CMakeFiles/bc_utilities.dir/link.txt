@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar qc libbc_utilities.a  CMakeFiles/bc_utilities.dir/key_conversion.cpp.o CMakeFiles/bc_utilities.dir/string_escape.cpp.o CMakeFiles/bc_utilities.dir/tempdir.cpp.o CMakeFiles/bc_utilities.dir/words.cpp.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib libbc_utilities.a

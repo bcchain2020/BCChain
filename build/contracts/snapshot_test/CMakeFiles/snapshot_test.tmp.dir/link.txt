@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/g++   -Wall -fno-builtin-memcmp -O3 -DNDEBUG   CMakeFiles/snapshot_test.tmp.dir/snapshot_test.cpp.o  -o snapshot_test.tmp 

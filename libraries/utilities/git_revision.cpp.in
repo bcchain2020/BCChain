@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <bc/utilities/git_revision.hpp>
+
+#define BC_GIT_REVISION_SHA "@BC_GIT_REVISION_SHA@"
+#define BC_GIT_REVISION_UNIX_TIMESTAMP @BC_GIT_REVISION_UNIX_TIMESTAMP@
+#define BC_GIT_REVISION_DESCRIPTION "@BC_GIT_REVISION_DESCRIPTION@"
+
+namespace bcio { namespace utilities {
+
+const char* const git_revision_sha = BC_GIT_REVISION_SHA;
+const uint32_t git_revision_unix_timestamp = BC_GIT_REVISION_UNIX_TIMESTAMP;
+const char* const git_revision_description = BC_GIT_REVISION_DESCRIPTION;
+
+} } // end namespace bcio::utilities
